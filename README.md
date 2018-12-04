@@ -13,3 +13,20 @@ You can `unpack` and `pack` XNB files using this tool.  For ease of use, a scrip
 
 ## License
 GNU GPL v3.0
+
+
+
+## Binary Compile Instructions
+
+1. Install npm to Linux system.
+2. Install 'pkg'(node.js packager) like so: "sudo npm install -g pkg"
+3. Install dependencies per "package.json" file, like so: 
+			sudo npm install dxt
+			sudo npm install commander  
+			sudo npm install chalk  
+			sudo npm install mkdirp  
+			sudo npm install walk  
+			sudo npm install pngjs  
+
+4. Copy the "node_modules" folder(The install folder of all the dependencies - "/usr/local/lib/node_modules/*") to the git directory.
+5. Run, ".travis.build.sh".
